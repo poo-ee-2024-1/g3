@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="394.0" prefWidth="600.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER" prefHeight="50.0" prefWidth="600.0" text="Solar Panel Market Place">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #F0F8FF;" text="Solar Panel Market Place">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="15.0" layoutY="71.0" style="-fx-background-color: #87CEEB;" text="Área">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="area" layoutX="15.0" layoutY="96.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField layoutX="15.0" layoutY="197.0" style="-fx-background-color: #87CEEB;" text="Ambiente">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="enviromentType" layoutX="15.0" layoutY="222.0" prefHeight="38.0" prefWidth="159.0" />
+      <Button id="SimulationResult" layoutX="530.0" layoutY="355.0" mnemonicParsing="false" style="-fx-background-color: #F0F8FF;" text="Simular" />
+      <TextField layoutX="302.0" layoutY="71.0" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: #87CEEB;" text="Consumo">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="consumption" layoutX="302.0" layoutY="96.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField layoutX="174.0" layoutY="115.0" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #87CEEB;" text="m²" />
+      <TextField layoutX="365.0" layoutY="71.0" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: #87CEEB;" text="(média)" />
+      <TextField layoutX="461.0" layoutY="115.0" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: #87CEEB;" text="kW/h" />
+      <TextField layoutX="17.0" layoutY="134.0" style="-fx-background-color: #87CEEB;" text="Área operacional ">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="efficiencyLevel" layoutX="17.0" layoutY="159.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField layoutX="304.0" layoutY="134.0" prefHeight="25.0" prefWidth="159.0" style="-fx-background-color: #87CEEB;" text="Orçamento máximo">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="maxPrice" layoutX="304.0" layoutY="159.0" prefHeight="38.0" prefWidth="159.0" />
+      <TextField layoutX="176.0" layoutY="178.0" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #87CEEB;" text="\% (valor inteiro)" />
+      <TextField layoutX="463.0" layoutY="159.0" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #87CEEB;" text="Investimento" />
+      <TextField layoutX="463.0" layoutY="178.0" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #87CEEB;" text="total" />
+      <TextField layoutX="302.0" layoutY="197.0" style="-fx-background-color: #87CEEB;" text="Clima">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="weatherType" layoutX="302.0" layoutY="222.0" prefHeight="38.0" prefWidth="159.0" />
+   </children>
+</Pane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="394.0" prefWidth="600.0" style="-fx-background-color: #87CEEB;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER" prefHeight="50.0" prefWidth="600.0" text="Solar Panel Market Place">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </TextField>
+      <TextField id="BotãoCadastro" alignment="CENTER" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #F0F8FF;" text="Solar Panel Market Place">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="13.0" layoutY="142.0" style="-fx-background-color: #87CEEB;" text="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="email" layoutX="16.0" layoutY="167.0" prefHeight="38.0" prefWidth="570.0" />
+      <Button id="BotãoCadastro" layoutX="515.0" layoutY="309.0" mnemonicParsing="false" style="-fx-background-color: #F0F8FF;" text="Salvar" />
+      <TextField layoutX="15.0" layoutY="205.0" style="-fx-background-color: #87CEEB;" text="Senha">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="senha" layoutX="16.0" layoutY="230.0" prefHeight="38.0" prefWidth="196.0" />
+      <TextField layoutX="14.0" layoutY="79.0" style="-fx-background-color: #87CEEB;" text="Nome">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="nome" layoutX="17.0" layoutY="104.0" prefHeight="38.0" prefWidth="570.0" />
+      <TextField layoutX="302.0" layoutY="205.0" prefHeight="25.0" prefWidth="172.0" style="-fx-background-color: #87CEEB;" text="Digite a senha novamente">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+      <TextArea id="senha_check" layoutX="303.0" layoutY="230.0" prefHeight="38.0" prefWidth="196.0" />
+      <TextField layoutX="17.0" layoutY="268.0" prefHeight="25.0" prefWidth="243.0" style="-fx-background-color: #87CEEB;" text="A senha deve ter no mínimo 6 caracteres." />
+   </children>
+</Pane>
