@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SimulationResult
+comment1.params=success\ cost\ message
+comment1.target=SimulationResult(boolean,\ double,\ java.lang.String)
+comment2.params=
+comment2.target=boolean\ isSuccess()
+comment3.params=success
+comment3.target=void\ setSuccess(boolean)
+comment4.params=
+comment4.target=double\ getCost()
+comment5.params=cost
+comment5.target=void\ setCost(double)
+comment6.params=
+comment6.target=java.lang.String\ getMessage()
+comment7.params=message
+comment7.target=void\ setMessage(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

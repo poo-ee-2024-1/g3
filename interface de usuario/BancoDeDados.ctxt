@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BancoDeDados
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ criarBancoDeDados()
+comment3.params=
+comment3.target=void\ inserirDadosAleatorios()
+comment4.params=nome\ cidade
+comment4.target=void\ adicionarPessoa(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ exibirDados()
+numComments=6

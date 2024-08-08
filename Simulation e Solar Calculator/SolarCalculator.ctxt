@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SolarCalculator
+comment1.params=area\ efficiencyLevel
+comment1.target=double\ calculateEnergy(double,\ int)
+comment2.params=area\ efficiencyLevel
+comment2.target=double\ calculateCost(double,\ int)
+numComments=3

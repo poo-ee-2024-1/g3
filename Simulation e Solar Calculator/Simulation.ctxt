@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Simulation
+comment1.params=project\ area\ consumption\ maxPrice\ environmentType\ efficiencyLevel
+comment1.target=SimulationResult\ simulateProject(Project,\ double,\ double,\ double,\ java.lang.String,\ int)
+numComments=2

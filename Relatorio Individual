@@ -1,0 +1,19 @@
+Eduardo Rodrigues Lima
+
+Introdução
+
+	Este projeto é um marketplace para usuários e fornecedores de painéis solares. O objetivo é que um cliente qualquer possa acessar o marketplace e forncecer à plataforma as requisições e características que deseja no seu projeto. As mesmas serão então apresentadas a fornecedores cadastrados na plataforma que responderão com propostas a serem avaliadas pelos clientes. Ainda que o projeto tenha um grande potencial, o resultado apresentado não passa de um esqueleto com as funcionalidades mais básica visto que o tempo proposto e os aspectos da linguagem ainda a serem aprendidos limitaram a atução dos desenvolvedores (que são novos no uso de algumas das ferramentas e da linguagem).
+    
+	A criação do diagrama UML foi feito antes do projeto, em conjunto com o grupo para ajudar todos a ter uma direção de o que fazer.
+
+	Todas as Classes foram feitas através do BlueJ.
+
+	Classe SolarCalculator: Esta classe foi desenvolvida para realizar cálculos de área e custos, incluindo o cálculo do aumento no custo. É uma classe relativamente simples, utilizando atributos e métodos básicos. A SolarCalculator será utilizada pela classe Simulation.
+
+	Classe Simulation: Esta classe é projetada para avaliar se um projeto específico atende aos critérios estabelecidos, com base em parâmetros como área, consumo, preço máximo e nível de eficiência. A Simulation herda da SolarCalculator e usa os cálculos realizados para determinar a viabilidade do projeto dentro das restrições estabelecidas, como o orçamento máximo (maxPrice). A classe gera um resultado que indica se o projeto foi aprovado ou não, e fornece detalhes sobre o custo.
+
+	Método SIMULATEPROJECT: O método SIMULATEPROJECT recebe um objeto Project, além de parâmetros adicionais como área, consumo, preço máximo, tipo de ambiente e nível de eficiência. Ele retorna um objeto SimulationResult, que encapsula a conclusão da simulação, o custo total e uma mensagem descritiva. Isso permite que o usuário ou o sistema tome decisões informadas com base nos resultados da simulação.
+
+	Classe Project: Esta classe armazena informações básicas sobre um projeto, como nome e descrição. Ela é útil para identificar e distinguir diferentes projetos dentro de um sistema ou aplicação. A Project encapsula informações relacionadas ao projeto, tornando o código mais organizado e modular. A classe inclui atributos, construtores e métodos de acesso (get e set).
+
+  	Banco de Dados: O banco de dados foi desenvolvido em colaboração com Gabriel Monteiro. Foram feitas 3 tabelas abrangendo: CLIENTES (nome, email, telefone), LOJAS PARCEIRAS (lojas cadastradas), ORÇAMENTO (referenciando os clientes e as lojas parceiras). Fizemos em conjunto utilizando o github, onde foram feitas alterações no mesmo tópico simultaneamente.
